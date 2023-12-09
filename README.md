@@ -33,7 +33,7 @@ event.preventDefault();
 Ограниченность - при некорреткно введенных данных выводится автосообщение (нельзя изменить его текст); отсутствие возможности использовать маску для ввода номера (тут нужна связка с JS); стили к псевдоклассам применяются до того, как пользователь начнёт работу с формой. 
 
 9. Какие свойства доступны в объекте `validity` для проверки валидности элемента формы?
-valid, customError, patternMismatch, rangeOverflow, rangeUnderflow, stepMismatch, tooLong, tooLong, typeMismatch, valueMissing
+valid, customError, patternMismatch, rangeOverflow, rangeUnderflow, stepMismatch, tooLong, tooShort, typeMismatch, valueMissing
 
 10. Как можно проверить, является ли элемент формы валидным с использованием объекта `validity`?
 Добавить проверки на свойства `validity`. Каждая проверка должна добавлять соответствующую ошибку в массив errors, если проверка не пройдена.
