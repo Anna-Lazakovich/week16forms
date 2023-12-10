@@ -41,3 +41,13 @@ label {
 .form__submit {
 	margin-top: 15px;
 }
+
+#errorName, 
+#errorEmail, 
+#errorAge, 
+#errorSelect, 
+#errorPassword, 
+#errorCheckboxOne {
+	color: red;
+	font-size: 1.3rem;
+}
